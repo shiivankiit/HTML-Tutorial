@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="javascriptreact">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HTML Forms:To collect user input data.-->
+
+    <form>
+          <label for="email">Enter email Id</label>
+          <input type="text" id="email" placeholder="Enter your email Id.">
+         
+          <br>
+          <br>
+
+          <label for="password">Enter password</label>
+          <input type="text" id="password" placeholder="Enter your password.">
+
+          <br>
+          <br>
+          <input type="submit" value="Submit">
+       
+    </form>
+
+    <br>
+
+    <!-- Second form -->
+
+    <form>
+    
+        <fieldset>
+            <legend>Dummy.</legend>
+            <label for="datepicker">Choose Date</label>
+         <input type="date" id="datepicker">
+
+         <br>
+         <br> 
+
+         <!-- for creating drop down. -->
+          <label for="multiple">Choose a dish :</label>
+         <select name="dishes" id="multiple" multiple size="2">
+              <option value="">Please choose an option</option>
+              <option value="Maggi">Maggi</option>
+              <option value="Egg curry">Egg curry</option>
+              <option value="Chicken">Chicken</option>
+              <option value="Mutton">Mutton</option>
+         </select>
+           <br>
+           <br>
+         <button> Click Here</button>
+            <br>
+            <br>
+        <textarea name="textarea-1" id="textarea-1" cols="30" rows="10" placeholder="enter your text here"></textarea>
+
+        </fieldset>
+        <br>
+        <br>
+
+    </form>
+
+
+    <!-- Creating all about input... -->
+    <form >
+        <label for="textfield">Text field:</label>
+        <input type="text" name="textfiled" id="textfield">
+        
+        <br>
+        <br>
+
+        <label for="btn">Button:</label>
+        <button id="btn">Subscribe</button>
+        <br>
+        <br>
+        <!-- For creation of radio button. -->
+        <label for="radio1">Male</label>
+        <input type="radio" name="gender" id="radio1" > 
+        <label for="radio2">Female</label>
+        <input type="radio" name="gender" id="radio2">
+        <label for="radio3">Man</label>
+        <input type="radio" name="gender" id="radio3">
+        <!-- Instead of using label to geave name...we also use value attr inside input tag. -->
+
+        <br>
+        <br>
+        <!-- Creation of checkbox -->
+        <label for="box1">English</label>
+        <input type="checkbox" name="lang" id="box1">
+        <label for="box2">Hindi </label>
+        <input type="checkbox" name="lang" id="box2">
+        <br>
+        <br>
+        <!-- attribute for uploading the file. -->
+        <label for="fileselect1">Upload:</label>
+        <input type="file" name="fileselect1"id="fileselect1">
+        <!-- making image to button -->
+        <br>
+        <br>
+        
+        <input type="image" name="imageButton1" id="imageButton1" alt="click here" src="button1.png" height="30px" width="30px">
+        <br>
+        <br>
+        <!-- craeting a password field. -->
+         <label for="password">Enter Password</label>
+         <input type="password" name="password" id="password">
+        <!-- Creating a date field -->
+         <label for="date">Choose Date</label>
+         <input type="date" name="datepicker" id="datepicker">
+    </form>
+     
+</body>
+</html>
